@@ -1,0 +1,1899 @@
+<!DOCTYPE html>
+<!-- Last Published: Thu Apr 04 2024 21:00:40 GMT+0000 (Coordinated Universal Time) -->
+<html
+  data-wf-domain="www.flowmaestro.dev"
+  data-wf-page="65cf7fdd14549330776da698"
+  data-wf-site="624dfe00e5b7becffc839f8e"
+  lang="en"
+>
+  <head>
+    <meta charset="utf-8" />
+    <title>Arcade Software by Flow Maestro</title>
+    <meta
+      content="Webflow development (Home and Careers pages) for Arcade Software."
+      name="description"
+    />
+    <meta content="Arcade Software by Flow Maestro" property="og:title" />
+    <meta
+      content="Webflow development (Home and Careers pages) for Arcade Software."
+      property="og:description"
+    />
+    <meta content="Arcade Software by Flow Maestro" property="twitter:title" />
+    <meta
+      content="Webflow development (Home and Careers pages) for Arcade Software."
+      property="twitter:description"
+    />
+    <meta property="og:type" content="website" />
+    <meta content="summary_large_image" name="twitter:card" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link
+      href="https://assets-global.website-files.com/624dfe00e5b7becffc839f8e/css/flow-maestro.24fa04d5f.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script type="text/javascript">
+      !(function (o, c) {
+        var n = c.documentElement,
+          t = " w-mod-";
+        (n.className += t + "js"),
+          ("ontouchstart" in o ||
+            (o.DocumentTouch && c instanceof DocumentTouch)) &&
+            (n.className += t + "touch");
+      })(window, document);
+    </script>
+    <link
+      href="https://assets-global.website-files.com/624dfe00e5b7becffc839f8e/629d76fb6e12ef84cb46c5bf_favicon.png"
+      rel="shortcut icon"
+      type="image/x-icon"
+    />
+    <link
+      href="https://assets-global.website-files.com/624dfe00e5b7becffc839f8e/629d76ff93841104afe078ff_webclip.png"
+      rel="apple-touch-icon"
+    />
+    <!--GLOBAL HEAD-->
+    <!--Fathom - beautiful, simple website analytics-->
+    <script
+      src="https://cdn.usefathom.com/script.js"
+      data-site="RAHCHPCM"
+      defer
+    ></script>
+    <!-- / Fathom -->
+    <!--[Attributes by Finsweet] Custom Form Select-->
+    <!--Panels Dropdowns-->
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-selectcustom@1/selectcustom.js"
+    ></script>
+    <!-- [Attributes by Finsweet] Disable Scrolling -->
+    <!-- Panels Prevent Scroll -->
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-scrolldisable@1/scrolldisable.js"
+    ></script>
+    <!--[Attributes by Finsweet] Mirror Click Events-->
+    <!--Primary CTA Panel Open-->
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-mirrorclick@1/mirrorclick.js"
+    ></script>
+    <!--Global Styles-->
+    <style>
+      /*Improves font quality*/
+      * {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      /*F'in Sweet Scrollbar Styles*/
+      /*width*/
+      ::-webkit-scrollbar {
+        width: auto;
+      }
+
+      /*track*/
+      ::-webkit-scrollbar-track {
+        background: rgb(36, 36, 39);
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(0, 0, 0);
+      }
+
+      /*thumb*/
+      ::-webkit-scrollbar-thumb {
+        background: rgb(76, 87, 96);
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(0, 0, 0);
+        border-radius: 0px;
+      }
+
+      /*thumb hover*/
+      ::-webkit-scrollbar-thumb:hover {
+        background: rgba(5, 213, 119, 1);
+      }
+
+      /*grabber/resizer handle in text areas etc.*/
+      ::-webkit-resizer {
+        display: none;
+      }
+    </style>
+    <!-- WORKS PAGE HEAD -->
+    <!-- [Attributes by Finsweet] CMS Slider -->
+    <script
+      async
+      src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-cmsslider@1/cmsslider.js"
+    ></script>
+  </head>
+  <body>
+    <div class="global_styles w-embed">
+      <!--GLOBAL STYLES SYMBOL-->
+      <style>
+        /*Snippet sets pointer-events-none class to "click through"*/
+        .pointer-events-none {
+          pointer-events: none;
+        }
+
+        /*Snippet makes elements w/ .noselect class unselectable*/
+        .no-select {
+          user-drag: none;
+          user-select: none;
+          -moz-user-select: none;
+          -webkit-user-drag: none;
+          -webkit-user-select: none;
+          -ms-user-select: none;
+        }
+
+        /*Snippet visual hides text while allowing it to still be read by screen readers*/
+        .visually-hidden {
+          border: 0;
+          padding: 0;
+          margin: 0;
+          position: absolute !important;
+          height: 1px;
+          width: 1px;
+          overflow: hidden;
+          clip: rect(1px 1px 1px 1px);
+          /*IE6, IE7 - a 0 height clip, off to the bottom right of the visible 1px box*/
+          clip: rect(1px, 1px, 1px, 1px);
+          /*maybe deprecated but we need to support legacy browsers*/
+          clip-path: inset(50%);
+          /*modern browsers, clip-path works inwards from each corner*/
+          white-space: nowrap;
+          /*added line to stop words getting smushed together (as they go onto seperate lines and some screen readers do not understand line feeds as a space*/
+        }
+
+        /*Snippet hyphenates any text that wraps and has the .hyphenate-text class*/
+        .hyphenate-text {
+          -webkit-hyphens: auto;
+          -ms-hyphens: auto;
+          hyphens: auto;
+        }
+
+        /*Snippet gets rid of top margin on first element in any rich text*/
+        .w-richtext > :first-child {
+          margin-top: 0;
+        }
+
+        /*Snippet gets rid of bottom margin on last element in any rich text*/
+        .w-richtext > :last-child,
+        .w-richtext ol li:last-child,
+        .w-richtext ul li:last-child {
+          margin-bottom: 0;
+        }
+
+        /*Snippet makes all link elements listed below to inherit color from their parent*/
+        a,
+        .w-tab-link,
+        .w-nav-link,
+        .w-dropdown-btn,
+        .w-dropdown-toggle,
+        .w-dropdown-link {
+          color: inherit;
+        }
+
+        /*Snippet prevents all click and hover interaction with an element*/
+        .clickable-off {
+          pointer-events: none;
+        }
+
+        /*Snippet enables all click and hover interaction with an element*/
+        .clickable-on {
+          pointer-events: auto;
+        }
+
+        /*Snippet enables you to add class of div-square which creates and maintains a 1:1 dimension of a div.*/
+        .div-square::after {
+          content: "";
+          display: block;
+          padding-bottom: 100%;
+        }
+
+        /*Hide focus outline for main content element*/
+        main:focus-visible {
+          outline: -webkit-focus-ring-color auto 0px;
+        }
+
+        /*Make sure containers never lose their center alignment*/
+        .container-medium,
+        .container-small,
+        .container-large {
+          margin-right: auto !important;
+          margin-left: auto !important;
+        }
+
+        /*Reset selects, buttons, and links styles*/
+        .w-input,
+        .w-select,
+        a {
+          color: inherit;
+          text-decoration: inherit;
+          font-size: inherit;
+        }
+
+        /*Apply "..." after 3 lines of text*/
+        .text-style-3lines {
+          display: -webkit-box;
+          overflow: hidden;
+          -webkit-line-clamp: 3;
+          -webkit-box-orient: vertical;
+        }
+
+        /*Apply "..." after 2 lines of text*/
+        .text-style-2lines {
+          display: -webkit-box;
+          overflow: hidden;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
+        }
+
+        /*Apply "..." at 100% width*/
+        .truncate-width {
+          width: 100%;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+
+        /*Removes native scrollbar*/
+        .no-scrollbar {
+          -ms-overflow-style: none;
+          /*IE 10+*/
+          overflow: -moz-scrollbars-none;
+          /*Firefox*/
+        }
+
+        .no-scrollbar::-webkit-scrollbar {
+          display: none;
+          /*Safari and Chrome*/
+        }
+
+        /*  Project specific CSS    */
+        /*Snippet sets carrot (typign indicator) color to primary brand color green*/
+        body {
+          caret-color: #05d577;
+        }
+
+        /*Snippet sets pointer-events-none to listed classes*/
+        .section-solid-fade_ix,
+        .section-gradient-fade_ix,
+        .process-desaturate-overlay_ix,
+        .handles-hide_ix {
+          pointer-events: none;
+        }
+
+        /*Lightbox Custom Styling*/
+        .w-lightbox-close {
+          right: 1rem !important;
+          opacity: 1 !important;
+          height: 2rem !important;
+          width: 2rem !important;
+          padding: 0.1rem !important;
+          background-size: 18px !important;
+          background-image: url(https://assets-global.website-files.com/624dfe00e5b7becffc839f8e/62f683a9d53550fbda659f53_lightbox-close-45_min.svg) !important;
+        }
+
+        /*Changes native lightbox arrow images*/
+        .w-lightbox-right {
+          opacity: 1 !important;
+          background-size: 18px !important;
+          background-image: url(https://assets-global.website-files.com/624dfe00e5b7becffc839f8e/62f591fd3ef1494970c18ffd_lightbox-arrow-right_min.svg) !important;
+        }
+
+        .w-lightbox-left {
+          opacity: 1 !important;
+          background-size: 18px !important;
+          background-image: url(https://assets-global.website-files.com/624dfe00e5b7becffc839f8e/62f591fd915f953c6094e374_lightbox-arrow-left_min.svg) !important;
+        }
+
+        /*Hides recent work on all pages but home - is overriden in 'home-page_styles'*/
+        #nav-recent-work {
+          display: none;
+        }
+
+        /*Styles last item in dropdown to round border*/
+        .fs-select_link-4:last-of-type {
+          border-bottom-left-radius: 1px;
+          border-bottom-right-radius: 1px;
+        }
+
+        /*Styles currently selected Panel CTA item*/
+        .fs-select_link-4.w-dropdown-link.w--current {
+          background-color: black;
+          color: #05d577;
+        }
+
+        /*Styles form in put text to white*/
+        .w-input,
+        .w-select,
+        a {
+          color: white;
+        }
+
+        /*Hides panels in designer*/
+        .panel_full-page {
+          display: none;
+        }
+
+        /*Prevent form text area from expanding horizontal*/
+        .is-text-area {
+          resize: vertical;
+        }
+
+        /*Noise background styles for next day CTA*/
+        .noise {
+          position: absolute;
+          top: -50%;
+          left: -50%;
+          right: -50%;
+          bottom: -50%;
+          width: 200%;
+          height: 200vh;
+          background: transparent
+            url("https://assets-global.website-files.com/624dfe00e5b7becffc839f8e/62e674c4f336108f112c196b_noise-transparent.png")
+            repeat 0 0;
+          background-repeat: repeat;
+          animation: noise-animation 0.2s infinite;
+          opacity: 1;
+          visibility: visible;
+          pointer-events: none;
+          user-select: none;
+          z-index: -1;
+        }
+
+        @keyframes noise-animation {
+          0% {
+            transform: translate(0, 0);
+          }
+
+          10% {
+            transform: translate(-5%, -5%);
+          }
+
+          20% {
+            transform: translate(-10%, 5%);
+          }
+
+          30% {
+            transform: translate(5%, -10%);
+          }
+
+          40% {
+            transform: translate(-5%, 15%);
+          }
+
+          50% {
+            transform: translate(-10%, 5%);
+          }
+
+          60% {
+            transform: translate(15%, 0);
+          }
+
+          70% {
+            transform: translate(0, 10%);
+          }
+
+          80% {
+            transform: translate(-15%, 0);
+          }
+
+          90% {
+            transform: translate(10%, 5%);
+          }
+
+          100% {
+            transform: translate(5%, 0);
+          }
+        }
+
+        /*styles footer container (tease continuation) when wrapped in sticky-footer_wrap-mod*/
+        .sticky-footer_wrap-mod * .container-large {
+          border-right: 0.5px solid #2f2f33;
+          border-left: 0.5px solid #2f2f33;
+        }
+
+        .text-wrap-balance {
+          text-wrap: balance;
+        }
+
+        .text-wrap-pretty {
+          text-wrap: pretty;
+        }
+      </style>
+    </div>
+    <div class="works-page_styles w-embed">
+      <!-- WORKS PAGE STYLES -->
+      <style>
+        /* Sets top border of recent work name to same as parent */
+        .recent-work-name_wrapper {
+          border-color: inherit;
+        }
+
+        /* Hides footer disclaimer */
+        .footer_disclaimer {
+          display: none;
+        }
+      </style>
+    </div>
+    <div class="page-wrapper">
+      <div
+        data-collapse="medium"
+        data-animation="default"
+        data-duration="400"
+        data-w-id="d3ef1aff-9785-0da3-55bf-36fa9890272a"
+        data-easing="ease"
+        data-easing2="ease"
+        role="banner"
+        class="navbar_component w-nav"
+      >
+        <nav class="navbar_container container-large">
+          <a
+            aria-label="main"
+            role="navigation"
+            id="w-node-_720e754b-3082-bd33-0d25-60fec279de8e-9890272a"
+            href="/"
+            class="navbar_logo w-inline-block"
+          >
+            <div class="logo-image_embed w-embed">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="117"
+                height="14"
+                fill="none"
+                viewBox="0 0 117 14"
+              >
+                <path
+                  fill="currentColor"
+                  d="M35.176 13.406c-1.14 0-2.105-.391-2.893-1.174-.787-.783-1.181-1.77-1.181-2.962-.021-1.11.365-2.079 1.158-2.908.793-.83 1.765-1.239 2.916-1.229 1.14 0 2.104.392 2.892 1.174.788.783 1.182 1.77 1.182 2.963.02 1.109-.365 2.078-1.159 2.908-.793.829-1.764 1.238-2.915 1.228Zm77.353 0c-1.141 0-2.105-.391-2.893-1.174-.788-.783-1.182-1.77-1.182-2.962-.02-1.11.366-2.079 1.159-2.908.793-.83 1.765-1.239 2.916-1.229 1.14 0 2.104.392 2.892 1.174.788.783 1.182 1.77 1.182 2.963.02 1.109-.366 2.078-1.159 2.908-.793.829-1.765 1.238-2.915 1.228Zm-19.935 0a5.38 5.38 0 0 1-1.454-.202c-.483-.135-.869-.311-1.159-.529l.202-1.166c.695.529 1.498.793 2.41.793.581 0 1.032-.101 1.353-.303.322-.202.482-.48.482-.832 0-.353-.121-.62-.365-.801-.244-.181-.749-.381-1.516-.599-.87-.259-1.493-.57-1.866-.933-.373-.362-.56-.834-.56-1.415 0-.705.262-1.262.785-1.671.524-.41 1.237-.615 2.138-.615.944 0 1.727.208 2.349.622l-.218 1.12a3.98 3.98 0 0 0-2.162-.638c-1.078 0-1.617.348-1.617 1.042 0 .322.12.576.358.762.238.187.679.374 1.322.56.984.29 1.679.62 2.083.988.405.368.607.868.607 1.5 0 .695-.29 1.254-.871 1.68-.58.425-1.348.637-2.301.637Zm-17.665 0c-1.058 0-1.944-.386-2.66-1.159-.715-.772-1.072-1.764-1.072-2.977-.031-1.089.337-2.053 1.104-2.893.767-.84 1.695-1.254 2.783-1.244.591 0 1.133.146 1.625.436.493.29.89.7 1.19 1.228l.03-1.415h1.292v7.775H77.93l-.031-1.415c-.622 1.11-1.612 1.664-2.97 1.664Zm10.465 0c-1.317 0-2.369-.368-3.157-1.104-.767-.736-1.15-1.736-1.15-3.001-.021-1.172.337-2.162 1.072-2.97.737-.809 1.664-1.208 2.784-1.198 1.047 0 1.892.353 2.535 1.058.653.705.98 1.627.98 2.768 0 .155-.011.399-.032.73h-6.033c.093.82.404 1.447.933 1.882.529.436 1.239.653 2.13.653.902 0 1.794-.212 2.675-.637l.155 1.12c-.746.466-1.71.699-2.892.699Zm-72.25-.21h-5.55L12.653.694h.49v12.502Zm-7.431 0h-3.27L7.502.694h3.27l-5.06 12.502Zm-5.152 0h-.56V.694h5.62L.562 13.196Zm18.459-.039V1.34h7.028v1.198H20.42v4.167h4.852v1.197H20.42v5.256h-1.4Zm79.218 0v-6.64H96.45V5.382h1.788V3.143h1.322v2.24h2.177v1.134H99.56v6.64h-1.322Zm4.976 0V5.382h1.244L104.474 7c.217-.549.534-.974.948-1.275.415-.3.887-.45 1.415-.45.342 0 .648.056.918.17l-.14 1.244a2.42 2.42 0 0 0-.933-.186c-.674 0-1.2.251-1.578.754-.379.503-.568 1.195-.568 2.076v3.825h-1.322Zm-60.558 0L39.95 5.382h1.353l1.99 6.376 1.96-6.376h1.181l2.069 6.376 2.021-6.376h1.306l-2.721 7.775H47.88L45.828 6.86l-1.944 6.297h-1.228Zm14.344 0V1.34h1.617l4.494 7.853L67.59 1.34h1.508v11.818h-1.4V3.454l-4.027 7.029h-1.244L58.4 3.454v9.703H57Zm-29.086 0V.562h1.322v12.595h-1.322ZM73.312 11.4c.518.55 1.171.824 1.96.824.787 0 1.44-.274 1.959-.824.508-.539.761-1.25.761-2.13 0-.881-.254-1.592-.761-2.13-.519-.55-1.172-.825-1.96-.825s-1.44.275-1.96.824c-.507.54-.761 1.25-.761 2.13 0 .882.254 1.592.762 2.131Zm37.258 0c.518.55 1.171.824 1.959.824s1.441-.274 1.959-.824c.508-.539.762-1.25.762-2.13 0-.881-.254-1.592-.762-2.13-.518-.55-1.171-.825-1.959-.825s-1.441.275-1.959.824c-.508.54-.762 1.25-.762 2.13 0 .882.254 1.592.762 2.131Zm-77.353 0c.518.55 1.172.824 1.96.824.787 0 1.44-.274 1.959-.824.508-.539.762-1.25.762-2.13 0-.881-.254-1.592-.762-2.13-.519-.55-1.172-.825-1.96-.825s-1.44.275-1.959.824c-.508.54-.762 1.25-.762 2.13 0 .882.254 1.592.762 2.131ZM82.41 8.648h4.774c-.042-.757-.262-1.343-.661-1.757-.4-.415-.951-.622-1.656-.622-.674 0-1.229.21-1.664.63-.436.42-.7 1.002-.793 1.749Z"
+                />
+              </svg>
+            </div>
+            <div class="visually-hidden">Flow Maestro</div>
+          </a>
+          <div
+            role="navigation"
+            id="w-node-d3ef1aff-9785-0da3-55bf-36fa9890272f-9890272a"
+            class="navbar_menu w-nav-menu"
+          >
+            <div class="w-dyn-list">
+              <div role="list" class="w-dyn-items">
+                <div role="listitem" class="w-dyn-item">
+                  <div class="navbar-links_center">
+                    <a
+                      href="/#recent"
+                      id="nav-recent-work"
+                      class="navbar_link w-nav-link"
+                      >Recent work</a
+                    >
+                    <a
+                      href="/#recent-work"
+                      id="nav-work-link"
+                      class="navbar_link w-nav-link"
+                      >Work</a
+                    >
+                    <a href="/#services" class="navbar_link w-nav-link"
+                      >Services</a
+                    >
+                    <a href="/#capabilities" class="navbar_link w-nav-link"
+                      >Capabilities</a
+                    >
+                    <a
+                      href="/#rush"
+                      class="navbar_link w-condition-invisible w-nav-link"
+                      >Rush service</a
+                    >
+                    <a
+                      href="/consultation"
+                      class="navbar_link show-mobile-landscape w-nav-link"
+                      >Schedule call</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a
+              id="fathom-mobile-nav-cta"
+              fs-mirrorclick-element="trigger"
+              href="#"
+              class="button is-mobile-navbar-button w-button"
+            >
+              Start<span class="hide-mobile-landscape">my</span>
+              project
+            </a>
+            <div
+              data-hover="false"
+              data-delay="200"
+              data-w-id="d3ef1aff-9785-0da3-55bf-36fa98902738"
+              class="navbar_menu-dropdown w-dropdown"
+            >
+              <div class="navbar_dropdwn-toggle w-dropdown-toggle">
+                <div class="nav-dropdown-icon w-icon-dropdown-toggle"></div>
+                <div>Resources</div>
+              </div>
+              <nav class="navbar_dropdown-list w-dropdown-list">
+                <a href="#" class="navbar_dropdown-link w-dropdown-link"
+                  >Link Five</a
+                >
+                <a href="#" class="navbar_dropdown-link w-dropdown-link"
+                  >Link Six</a
+                >
+                <a href="#" class="navbar_dropdown-link w-dropdown-link"
+                  >Link Seven</a
+                >
+              </nav>
+            </div>
+          </div>
+          <div
+            id="w-node-d3ef1aff-9785-0da3-55bf-36fa98902746-9890272a"
+            class="navbar_button-wrapper"
+          >
+            <a
+              href="/consultation"
+              class="button-tertiary is-nav hide-mobile-landscape w-inline-block"
+            >
+              <div>Schedule call</div>
+            </a>
+            <a
+              href="#"
+              id="fathom-nav-cta"
+              fs-mirrorclick-element="trigger"
+              class="button navbar-button hide-mobile-landscape w-button"
+              >Start project</a
+            >
+            <div class="navbar_menu-button w-nav-button">
+              <div class="menu-icon">
+                <div class="menu-icon_line-top"></div>
+                <div class="menu-icon_line-middle">
+                  <div class="menu-icon_line-middle-inner"></div>
+                </div>
+                <div class="menu-icon_line-bottom"></div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <aside
+        aria-labelledby="Popup Modal"
+        role="dialog"
+        aria-modal="true"
+        class="panel_full-page is-info-panel"
+      >
+        <div
+          fs-scrolldisable-element="preserve"
+          class="panel_component is-info-panel"
+        >
+          <div class="page-info_content-right hide-tablet"></div>
+          <div class="page-info_content-left">
+            <div class="max-width-large">
+              <div class="margin-bottom margin-medium">
+                <div class="max-width-medium">
+                  <div class="margin-bottom margin-xxsmall">
+                    <p>// Who &#x27;s behind Flow Maestro?<br /></p>
+                  </div>
+                  <div class="margin-bottom margin-small">
+                    <div class="info-heading_wrapper">
+                      <h2 class="heading-medium">
+                        Heyoo, I &#x27;m Tony Seets, an Oregon, Coast native. 👋
+                      </h2>
+                    </div>
+                  </div>
+                  <p class="text-size-medium">
+                    Between time with my wife, our pups, and wild mountain bike
+                    rides, I get many of my kicks wowing people like you with
+                    Webflow. If you &#x27;re looking to build something, need an
+                    assist, or just want to chat. <a
+                      target="_blank"
+                      href="mailto:hey@tonyseets.com?subject=Heyoo%20Tony"
+                      >Hit me up</a
+                    >
+                    , I &#x27;d love to!<br />
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a
+          fs-scrolldisable-element="disable"
+          role="button"
+          fs-mirrorclick-element="target-2"
+          data-w-id="219e51c3-5e56-65a6-4657-27fea26fc652"
+          href="#"
+          class="panel_open-button is-page-info-open w-inline-block"
+        >
+          <div
+            data-is-ix2-target="1"
+            class="icon-1x1-xsmall"
+            data-w-id="219e51c3-5e56-65a6-4657-27fea26fc653"
+            data-animation-type="lottie"
+            data-src="https://assets-global.website-files.com/624dfe00e5b7becffc839f8e/627bf13d96329211a6b51284_lottieflow-chat-7-3-ffffff-easey.json"
+            data-loop="0"
+            data-direction="1"
+            data-autoplay="0"
+            data-renderer="svg"
+            data-default-duration="1.75"
+            data-duration="0"
+            data-ix2-initial-state="0"
+          ></div>
+          <div class="visually-hidden">Open information panel</div>
+        </a>
+        <a
+          fs-scrolldisable-element="enable"
+          role="button"
+          data-w-id="219e51c3-5e56-65a6-4657-27fea26fc656"
+          href="#"
+          class="panel_close-button is-info-close close-button_ix w-inline-block"
+        >
+          <div class="plus-icon_wrapper is-panel-close">
+            <div class="plus-icon_line is-left"></div>
+            <div class="plus-icon_line is-right"></div>
+            <div class="plus-icon_line is-vertical"></div>
+          </div>
+          <div class="visually-hidden">Close Panel</div>
+        </a>
+      </aside>
+      <aside
+        id="request-form"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="Popup Modal"
+        data-w-id="b227edad-585c-aac7-ad2d-f20164837961"
+        class="panel_full-page is-request-panel"
+      >
+        <div fs-scrolldisable-element="preserve" class="panel_component">
+          <div
+            id="w-node-b227edad-585c-aac7-ad2d-f20164837963-64837961"
+            class="request-form_content-left"
+          >
+            <div class="max-width-large">
+              <div class="margin-bottom margin-medium">
+                <div class="request_form-block w-form">
+                  <form
+                    id="wf-form-Panel-CTA"
+                    name="wf-form-Panel-CTA"
+                    data-name="Panel CTA"
+                    method="get"
+                    class="request_form"
+                    data-wf-page-id="65cf7fdd14549330776da698"
+                    data-wf-element-id="b227edad-585c-aac7-ad2d-f20164837967"
+                  >
+                    <div class="text-align-center">
+                      <div class="max-width-large align-center">
+                        <div class="margin-bottom margin-medium">
+                          <h2 class="heading-xlarge">Let &#x27;s goooo</h2>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      id="w-node-b227edad-585c-aac7-ad2d-f20164837970-64837961"
+                      class="form-field-wrapper-horizontal"
+                    >
+                      <div class="request-form-field-wrapper">
+                        <div class="field-label is-text-input">Name</div>
+                        <input
+                          spellcheck="false"
+                          class="form-input w-input"
+                          maxlength="256"
+                          name="Customer-Name"
+                          data-name="Customer Name"
+                          placeholder=""
+                          type="text"
+                          id="Panel-CTA"
+                          required=""
+                        />
+                      </div>
+                      <div class="request-form-field-wrapper">
+                        <div class="field-label is-text-input">Email</div>
+                        <input
+                          spellcheck="false"
+                          class="form-input w-input"
+                          maxlength="256"
+                          name="Customer-Email-3"
+                          data-name="Customer Email 3"
+                          placeholder=""
+                          type="email"
+                          id="Customer-Email-3"
+                          required=""
+                        />
+                      </div>
+                    </div>
+                    <div
+                      id="w-node-b227edad-585c-aac7-ad2d-f20164837979-64837961"
+                      class="form-field-wrapper-horizontal"
+                    >
+                      <div class="request-form-field-wrapper">
+                        <div class="field-label is-text-input">
+                          Business or Project Name
+                        </div>
+                        <input
+                          spellcheck="false"
+                          class="form-input w-input"
+                          maxlength="256"
+                          name="Form-5-Name-2"
+                          data-name="Form 5 Name 2"
+                          placeholder=""
+                          type="text"
+                          id="Business-Name"
+                          required=""
+                        />
+                      </div>
+                      <div class="request-form-field-wrapper">
+                        <div
+                          data-delay="0"
+                          data-hover="false"
+                          fs-selectcustom-element="dropdown"
+                          class="fs-select-4 w-dropdown"
+                        >
+                          <div class="fs-select_toggle-2 w-dropdown-toggle">
+                            <div class="fs-select_label-4">Project Type</div>
+                            <div
+                              class="fs-select_arrow-4 w-icon-dropdown-toggle"
+                            ></div>
+                            <div
+                              fs-selectcustom-element="label"
+                              class="fs-select_text-4"
+                            >
+                              Select a type
+                            </div>
+                          </div>
+                          <nav class="fs-select_list-4 w-dropdown-list">
+                            <select
+                              id="Project-Type-2"
+                              name="Project-Type-2"
+                              data-name="Project Type 2"
+                              required=""
+                              multiple=""
+                              class="fs-select_field-4 w-select"
+                            >
+                              <option value="White label">White label</option>
+                              <option value="Pay-as-you-go">
+                                Pay-as-you-go
+                              </option>
+                              <option value="Migration to Webflow">
+                                Migration to Webflow
+                              </option>
+                              <option value="Other">Other</option>
+                            </select>
+                            <a href="#" class="fs-select_link-4 w-dropdown-link"
+                              >Figma/XD to Webflow</a
+                            >
+                          </nav>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      id="w-node-b227edad-585c-aac7-ad2d-f2016483798a-64837961"
+                      class="form-field-wrapper-horizontal is-test"
+                    >
+                      <div class="request-form-field-wrapper">
+                        <div class="field-label is-text-input">
+                          <a
+                            href="https://help.figma.com/hc/en-us/articles/360040531773-Share-or-embed-files-and-prototypes"
+                            rel="noopener"
+                            title="Sharing Figma Prototype Links"
+                            target="_blank"
+                            class="link"
+                            >Figma</a
+                          >
+                          ,
+                          <a
+                            href="https://www.adobe.com/products/xd/learn/collaborate/stakeholder-review/presenting-sharing-with-clients.html#:~:text=Sharing%20a%20link%20for%20Design%20Review"
+                            rel="noopener"
+                            title="Sharing Adobe XD Prototype Link"
+                            target="_blank"
+                            class="link"
+                            >XD</a
+                          >
+                          ,
+                          <a
+                            href="https://university.webflow.com/lesson/share-your-project-and-invite-collaborators#:~:text=If%20you&#x27;d%20like%20to,share%20it%20wherever%20you%20like."
+                            title="Sharing a Webflow Read-only Link"
+                            rel="noopener"
+                            target="_blank"
+                            class="link"
+                            >Webflow</a
+                          >
+                          or
+                          <a
+                            href="https://support.loom.com/hc/en-us/articles/360002208157-How-to-share-your-recording"
+                            title="Sharing a Loom Video Link"
+                            rel="noopener"
+                            target="_blank"
+                            class="link"
+                            >Loom</a
+                          >
+                          link
+                        </div>
+                        <input
+                          spellcheck="false"
+                          class="form-input w-input"
+                          maxlength="256"
+                          name="Project-Link-2"
+                          data-name="Project Link 2"
+                          placeholder=""
+                          type="text"
+                          id="Project-Link-2"
+                        />
+                      </div>
+                      <div class="request-form-field-wrapper is-cta-dropdowns">
+                        <div
+                          data-delay="0"
+                          data-hover="false"
+                          fs-selectcustom-element="dropdown"
+                          class="fs-select-4 w-dropdown"
+                        >
+                          <div class="fs-select_toggle-2 w-dropdown-toggle">
+                            <div class="fs-select_label-4">Deadline</div>
+                            <div
+                              class="fs-select_arrow-4 w-icon-dropdown-toggle"
+                            ></div>
+                            <div
+                              fs-selectcustom-element="label"
+                              class="fs-select_text-4"
+                            >
+                              To complete
+                            </div>
+                          </div>
+                          <nav class="fs-select_list-4 w-dropdown-list">
+                            <select
+                              name="Project-Deadline-2"
+                              data-name="Project Deadline 2"
+                              id="Project-Deadline-2"
+                              class="fs-select_field-4 w-select"
+                            >
+                              <option value="1 Month or less">
+                                1 Month or less
+                              </option>
+                              <option value="1 - 3 Months">1 - 3 Months</option>
+                              <option value="3 - 6 Months">3 - 6 Months</option>
+                              <option value="Undetermined">Undetermined</option>
+                            </select>
+                            <a href="#" class="fs-select_link-4 w-dropdown-link"
+                              >Undetermined</a
+                            >
+                          </nav>
+                        </div>
+                        <div
+                          data-delay="0"
+                          data-hover="false"
+                          fs-selectcustom-element="dropdown"
+                          class="fs-select-4 w-dropdown"
+                        >
+                          <div class="fs-select_toggle-2 w-dropdown-toggle">
+                            <div class="fs-select_label-4"># of Pages</div>
+                            <div
+                              class="fs-select_arrow-4 w-icon-dropdown-toggle"
+                            ></div>
+                            <div
+                              fs-selectcustom-element="label"
+                              class="fs-select_text-4"
+                            >
+                              How many?
+                            </div>
+                          </div>
+                          <nav class="fs-select_list-4 w-dropdown-list">
+                            <select
+                              id="Number-of-Pages-2"
+                              name="Number-of-Pages-2"
+                              data-name="Number Of Pages 2"
+                              class="fs-select_field-4 w-select"
+                            >
+                              <option value="1">1</option>
+                              <option value="2 - 5">2 - 5</option>
+                              <option value="5 - 10">5 - 10</option>
+                              <option value="10 - 20">10 - 20</option>
+                              <option value="20+">20+</option>
+                            </select>
+                            <a href="#" class="fs-select_link-4 w-dropdown-link"
+                              >1</a
+                            >
+                          </nav>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="request-form-field-wrapper">
+                      <div class="field-label is-text-input">
+                        Project Summary &amp;Details
+                      </div>
+                      <textarea
+                        id="Project-Details-2"
+                        name="Project-Details-2"
+                        maxlength="5000"
+                        data-name="Project Details 2"
+                        placeholder="Please share any additional information about your project"
+                        class="form-input is-text-area w-input"
+                      ></textarea>
+                    </div>
+                    <div class="request-form-field-wrapper">
+                      <div class="margin-bottom margin-xsmall">
+                        <div class="padding-left padding-small">
+                          <div class="field-label">
+                            What &#x27;s your budget?
+                          </div>
+                        </div>
+                      </div>
+                      <div class="fs-radio_column">
+                        <label class="fs-radio_field-3 hidden w-radio">
+                          <div
+                            class="w-form-formradioinput w-form-formradioinput--inputType-custom fs-radio_button-3 w-radio-input"
+                          ></div>
+                          <input
+                            type="radio"
+                            name="Project-Budget"
+                            id="Less-than-5k"
+                            data-name="Project Budget"
+                            style="opacity: 0; position: absolute; z-index: -1"
+                            value="Less than 5k"
+                          />
+                          <span
+                            fs-cmsfilter-field="category"
+                            fs-cmsfilter-active="is-active"
+                            class="fs-radio_label-3 w-form-label"
+                            for="Less-than-5k"
+                            >≤ $5k</span
+                          >
+                        </label>
+                        <label class="fs-radio_field-3 w-radio">
+                          <div
+                            class="w-form-formradioinput w-form-formradioinput--inputType-custom fs-radio_button-3 w-radio-input"
+                          ></div>
+                          <input
+                            id="Hourly"
+                            type="radio"
+                            name="Project-Budget"
+                            data-name="Project Budget"
+                            style="opacity: 0; position: absolute; z-index: -1"
+                            value="Hourly"
+                          />
+                          <span
+                            fs-cmsfilter-field="category"
+                            fs-cmsfilter-active="is-active"
+                            class="fs-radio_label-3 w-form-label"
+                            for="Hourly"
+                            >Hourly</span
+                          >
+                        </label>
+                        <label class="fs-radio_field-3 w-radio">
+                          <div
+                            class="w-form-formradioinput w-form-formradioinput--inputType-custom fs-radio_button-3 w-radio-input"
+                          ></div>
+                          <input
+                            type="radio"
+                            name="Project-Budget"
+                            id="5k-to-10k"
+                            data-name="Project Budget"
+                            style="opacity: 0; position: absolute; z-index: -1"
+                            value="5k to 10k"
+                          />
+                          <span
+                            fs-cmsfilter-field="category"
+                            fs-cmsfilter-active="is-active"
+                            class="fs-radio_label-3 w-form-label"
+                            for="5k-to-10k"
+                            >$5k - $10k</span
+                          >
+                        </label>
+                        <label class="fs-radio_field-3 w-radio">
+                          <div
+                            class="w-form-formradioinput w-form-formradioinput--inputType-custom fs-radio_button-3 w-radio-input"
+                          ></div>
+                          <input
+                            type="radio"
+                            name="Project-Budget"
+                            id="10k-to-15k"
+                            data-name="Project Budget"
+                            style="opacity: 0; position: absolute; z-index: -1"
+                            value="10k to 15k"
+                          />
+                          <span
+                            fs-cmsfilter-field="category"
+                            fs-cmsfilter-active="is-active"
+                            class="fs-radio_label-3 w-form-label"
+                            for="10k-to-15k"
+                            >$10k - $15k</span
+                          >
+                        </label>
+                        <label class="fs-radio_field-3 w-radio">
+                          <div
+                            class="w-form-formradioinput w-form-formradioinput--inputType-custom fs-radio_button-3 w-radio-input"
+                          ></div>
+                          <input
+                            type="radio"
+                            name="Project-Budget"
+                            id="15k-plus"
+                            data-name="Project Budget"
+                            style="opacity: 0; position: absolute; z-index: -1"
+                            value="15k plus"
+                          />
+                          <span
+                            fs-cmsfilter-field="category"
+                            fs-cmsfilter-active="is-active"
+                            class="fs-radio_label-3 w-form-label"
+                            for="15k-plus"
+                            >$15k +</span
+                          >
+                        </label>
+                      </div>
+                    </div>
+                    <input
+                      class="form-input visually-hidden w-input"
+                      maxlength="256"
+                      name="work-email"
+                      data-name="work-email"
+                      placeholder="work-email"
+                      type="text"
+                      id="work-email"
+                      tabindex="-1"
+                    />
+                    <div class="form-button-wrapper">
+                      <div
+                        id="w-node-b227edad-585c-aac7-ad2d-f201648379d0-64837961"
+                        class="margin-top margin-xsmall"
+                      >
+                        <input
+                          id="cta-submit"
+                          type="submit"
+                          data-wait="Sending it!"
+                          class="button max-width-full w-button"
+                          value="Send it!"
+                        />
+                        <div class="text-align-center">
+                          <div class="margin-top margin-xsmall">
+                            <div class="text-size-small">
+                              By submitting this form you agree to these
+                              <a href="/privacy">Terms</a>
+                              .
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                  <div class="success-message w-form-done">
+                    <div class="max-width-xxsmall align-center">
+                      <div class="margin-bottom margin-xsmall">
+                        <h1 class="heading-large">
+                          🙌<br />It &#x27;s been sent!
+                        </h1>
+                      </div>
+                      <p class="text-size-medium">
+                        Thanks for your interest in working together and I hope
+                        to talk soon!
+                      </p>
+                    </div>
+                  </div>
+                  <div class="error-message w-form-fail">
+                    <div class="error-text">
+                      Oops! Something went wrong while submitting the form.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            id="w-node-b227edad-585c-aac7-ad2d-f201648379e7-64837961"
+            class="request-form_content-right hide-tablet"
+          ></div>
+        </div>
+        <a
+          fs-scrolldisable-element="disable"
+          fs-mirrorclick-element="target"
+          role="button"
+          data-w-id="b227edad-585c-aac7-ad2d-f201648379e8"
+          href="#"
+          class="panel_open-button is-request-form-open w-inline-block"
+        >
+          <div
+            class="icon-1x1-xsmall is-form-right-handle"
+            data-w-id="b227edad-585c-aac7-ad2d-f201648379e9"
+            data-animation-type="lottie"
+            data-src="https://assets-global.website-files.com/624dfe00e5b7becffc839f8e/626deb7412ae832f0a334c5f_lottieflow-form-17-10-ffffff-easey.json"
+            data-loop="0"
+            data-direction="1"
+            data-autoplay="1"
+            data-is-ix2-target="0"
+            data-renderer="svg"
+            data-default-duration="2"
+            data-duration="9999999"
+          ></div>
+          <div class="visually-hidden">Open estimate panel</div>
+        </a>
+        <a
+          fs-scrolldisable-element="enable"
+          role="button"
+          href="#"
+          class="panel_close-button is-request-close close-button_ix w-inline-block"
+        >
+          <div class="plus-icon_wrapper is-panel-close">
+            <div class="plus-icon_line is-left"></div>
+            <div class="plus-icon_line is-right"></div>
+            <div class="plus-icon_line is-vertical"></div>
+          </div>
+          <div class="visually-hidden">Close Panel</div>
+        </a>
+      </aside>
+      <main class="main-wrapper">
+        <header
+          data-w-id="215b4649-4698-56c3-419c-aebccad917e3"
+          class="section-works-hero"
+        >
+          <div class="page-padding">
+            <div class="container-large">
+              <div class="header-works-height">
+                <div class="padding-vertical padding-xhuge">
+                  <div class="max-width-medium">
+                    <div class="margin-bottom margin-small">
+                      <h1 class="heading-large">Arcade Software</h1>
+                    </div>
+                    <div class="works-rich-text w-richtext">
+                      <p>
+                        Figma to Webflow development of the Home and Careers
+                        pages for Arcade Software.
+                      </p>
+                    </div>
+                    <div class="margin-top margin-small">
+                      <div class="button-row">
+                        <a
+                          href="https://arcade.software"
+                          class="button w-button"
+                          >See live build</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="works-hero_background-image-wrapper">
+            <div class="works-hero_overlay-layer"></div>
+            <img
+              src="https://assets-global.website-files.com/627c1c7c6d6ff4107f43eb68/633769a1f43eb11cd6a20896_arcade-mock_min.jpg"
+              loading="lazy"
+              alt="Screenshot of Arcade Software&#x27;s Homepage that was built using Webflow."
+              sizes="100vw"
+              srcset="
+                https://assets-global.website-files.com/627c1c7c6d6ff4107f43eb68/633769a1f43eb11cd6a20896_arcade-mock_min-p-500.jpg   500w,
+                https://assets-global.website-files.com/627c1c7c6d6ff4107f43eb68/633769a1f43eb11cd6a20896_arcade-mock_min-p-800.jpg   800w,
+                https://assets-global.website-files.com/627c1c7c6d6ff4107f43eb68/633769a1f43eb11cd6a20896_arcade-mock_min-p-1080.jpg 1080w,
+                https://assets-global.website-files.com/627c1c7c6d6ff4107f43eb68/633769a1f43eb11cd6a20896_arcade-mock_min-p-1600.jpg 1600w,
+                https://assets-global.website-files.com/627c1c7c6d6ff4107f43eb68/633769a1f43eb11cd6a20896_arcade-mock_min-p-2000.jpg 2000w,
+                https://assets-global.website-files.com/627c1c7c6d6ff4107f43eb68/633769a1f43eb11cd6a20896_arcade-mock_min.jpg        2200w
+              "
+              class="works-hero_background-image"
+            />
+            <div class="gradient-bottom-edge"></div>
+          </div>
+        </header>
+        <section id="full-page" class="section-works-primary">
+          <div class="page-padding">
+            <div class="container-large">
+              <div class="padding-bottom padding-xhuge">
+                <div class="w-layout-grid work-primary_component">
+                  <img
+                    src="https://assets-global.website-files.com/627c1c7c6d6ff4107f43eb68/633763d8112ec42528695205_arcade9-3-22_min.jpg"
+                    loading="lazy"
+                    alt="Screenshot of Arcade Software&#x27;s Homepage that was built using Webflow."
+                    sizes="95vw"
+                    srcset="
+                      https://assets-global.website-files.com/627c1c7c6d6ff4107f43eb68/633763d8112ec42528695205_arcade9-3-22_min-p-500.jpg   500w,
+                      https://assets-global.website-files.com/627c1c7c6d6ff4107f43eb68/633763d8112ec42528695205_arcade9-3-22_min-p-800.jpg   800w,
+                      https://assets-global.website-files.com/627c1c7c6d6ff4107f43eb68/633763d8112ec42528695205_arcade9-3-22_min-p-1080.jpg 1080w,
+                      https://assets-global.website-files.com/627c1c7c6d6ff4107f43eb68/633763d8112ec42528695205_arcade9-3-22_min-p-1600.jpg 1600w,
+                      https://assets-global.website-files.com/627c1c7c6d6ff4107f43eb68/633763d8112ec42528695205_arcade9-3-22_min.jpg        1914w
+                    "
+                    class="work-primary_image is-blur"
+                  />
+                  <img
+                    src="https://assets-global.website-files.com/627c1c7c6d6ff4107f43eb68/633763d8112ec42528695205_arcade9-3-22_min.jpg"
+                    loading="lazy"
+                    alt="Screenshot of Arcade Software&#x27;s Homepage that was built using Webflow."
+                    sizes="90vw"
+                    srcset="
+                      https://assets-global.website-files.com/627c1c7c6d6ff4107f43eb68/633763d8112ec42528695205_arcade9-3-22_min-p-500.jpg   500w,
+                      https://assets-global.website-files.com/627c1c7c6d6ff4107f43eb68/633763d8112ec42528695205_arcade9-3-22_min-p-800.jpg   800w,
+                      https://assets-global.website-files.com/627c1c7c6d6ff4107f43eb68/633763d8112ec42528695205_arcade9-3-22_min-p-1080.jpg 1080w,
+                      https://assets-global.website-files.com/627c1c7c6d6ff4107f43eb68/633763d8112ec42528695205_arcade9-3-22_min-p-1600.jpg 1600w,
+                      https://assets-global.website-files.com/627c1c7c6d6ff4107f43eb68/633763d8112ec42528695205_arcade9-3-22_min.jpg        1914w
+                    "
+                    class="work-primary_image"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="recent" class="section-more-work">
+          <div class="page-padding">
+            <div class="container-large">
+              <div class="padding-vertical padding-xhuge">
+                <div class="margin-bottom margin-xxlarge">
+                  <div class="max-width-large">
+                    <h2 class="heading-medium">More Webflow dev</h2>
+                  </div>
+                </div>
+                <div class="recent-work_component">
+                  <div
+                    data-delay="4000"
+                    data-animation="slide"
+                    class="recent-work_slider w-slider"
+                    data-autoplay="false"
+                    data-easing="ease"
+                    data-hide-arrows="false"
+                    data-disable-swipe="false"
+                    data-autoplay-limit="0"
+                    data-nav-spacing="4"
+                    data-duration="500"
+                    data-infinite="false"
+                    fs-cmsslider-element="slider"
+                    id="gallery13_slider"
+                  >
+                    <div class="gallery19_mask w-slider-mask">
+                      <div class="recent-work_slide w-slide"></div>
+                    </div>
+                    <div class="recent-work_slide-arrow w-slider-arrow-left">
+                      <div class="recent-work-arrow_image w-embed">
+                        <svg fill="currentColor">
+                          <title>Left Arrow</title>
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="m3 9 6 5-1 2-8-8 8-8 1 2-6 5h13v2H3Z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="recent-work_slide-arrow w-slider-arrow-right">
+                      <div class="recent-work-arrow_image w-embed">
+                        <svg fill="currentColor">
+                          <title>Right Arrow</title>
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M13 7 7 2l1-2 8 8-8 8-1-2 6-5H1V7h12Z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                    <div
+                      class="recent-work_slide-nav w-slider-nav w-round"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section-gradient-fade_ix"></div>
+        </section>
+        <section
+          data-w-id="62cf1973-591e-9558-6c99-201127cfd1c0"
+          class="section-work-cta"
+        >
+          <div class="background-color-dark-grey">
+            <div class="page-padding">
+              <div class="container-large">
+                <div class="padding-vertical padding-xhuge">
+                  <div class="work-cta_component">
+                    <div
+                      id="w-node-_62cf1973-591e-9558-6c99-201127cfd1c6-27cfd1c0"
+                      class="work-cta_content"
+                    >
+                      <h2 class="heading-large">
+                        Begin your<span class="hide-mobile-portrait">next</span>
+                        Webflow project
+                      </h2>
+                    </div>
+                    <div
+                      id="w-node-_62cf1973-591e-9558-6c99-201127cfd1c9-27cfd1c0"
+                      class="work-cta_button-row"
+                    >
+                      <div class="work-cta_button-wrapper">
+                        <a
+                          id="fathom-global-footer-cta"
+                          fs-mirrorclick-element="trigger"
+                          href="#"
+                          class="button w-button"
+                          >Get my estimate</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section-solid-fade_ix"></div>
+        </section>
+        <div class="projects-slider_collection-list w-dyn-list">
+          <div fs-cmsslider-element="list" role="list" class="w-dyn-items">
+            <div role="listitem" class="w-dyn-item">
+              <a
+                rel="noopener"
+                href="/work/lay-of-the-land-design"
+                class="recent-work_image-wrapper hover-shadow w-inline-block"
+              >
+                <img
+                  src="https://assets-global.website-files.com/627c1c7c6d6ff4107f43eb68/627c41838bc23b5efc1f6120_layofthelanddesign-showcase_min.jpg"
+                  loading="lazy"
+                  alt="Screenshot of Lay of the Land Design&#x27;s website"
+                  sizes="100vw"
+                  srcset="
+                    https://assets-global.website-files.com/627c1c7c6d6ff4107f43eb68/627c41838bc23b5efc1f6120_layofthelanddesign-showcase_min-p-500.jpeg   500w,
+                    https://assets-global.website-files.com/627c1c7c6d6ff4107f43eb68/627c41838bc23b5efc1f6120_layofthelanddesign-showcase_min-p-800.jpeg   800w,
+                    https://assets-global.website-files.com/627c1c7c6d6ff4107f43eb68/627c41838bc23b5efc1f6120_layofthelanddesign-showcase_min-p-1080.jpeg 1080w,
+                    https://assets-global.website-files.com/627c1c7c6d6ff4107f43eb68/627c41838bc23b5efc1f6120_layofthelanddesign-showcase_min-p-1600.jpeg 1600w,
+                    https://assets-global.website-files.com/627c1c7c6d6ff4107f43eb68/627c41838bc23b5efc1f6120_layofthelanddesign-showcase_min.jpg         2200w
+                  "
+                  class="recent-work_image"
+                />
+                <div
+                  fs-sliderdots-element="content"
+                  class="recent-work-name_wrapper"
+                >
+                  <div class="text-size-small">Lay of the Land Design</div>
+                </div>
+              </a>
+            </div>
+            <div role="listitem" class="w-dyn-item">
+              <a
+                rel="noopener"
+                href="/work/test-portal-rebuild"
+                class="recent-work_image-wrapper hover-shadow w-inline-block"
+              >
+                <img
+                  src="https://assets-global.website-files.com/627c1c7c6d6ff4107f43eb68/62cf9ef934ac256378d68e13_testportal-thumb_min.webp"
+                  loading="lazy"
+                  alt="Screenshot of the Test Portal website that was rebuilt using Webflow."
+                  sizes="100vw"
+                  srcset="
+                    https://assets-global.website-files.com/627c1c7c6d6ff4107f43eb68/62cf9ef934ac256378d68e13_testportal-thumb_min-p-500.webp   500w,
+                    https://assets-global.website-files.com/627c1c7c6d6ff4107f43eb68/62cf9ef934ac256378d68e13_testportal-thumb_min-p-800.webp   800w,
+                    https://assets-global.website-files.com/627c1c7c6d6ff4107f43eb68/62cf9ef934ac256378d68e13_testportal-thumb_min-p-1080.webp 1080w,
+                    https://assets-global.website-files.com/627c1c7c6d6ff4107f43eb68/62cf9ef934ac256378d68e13_testportal-thumb_min.webp        1100w
+                  "
+                  class="recent-work_image"
+                />
+                <div
+                  fs-sliderdots-element="content"
+                  class="recent-work-name_wrapper"
+                >
+                  <div class="text-size-small">Test Portal Rebuild</div>
+                </div>
+              </a>
+            </div>
+            <div role="listitem" class="w-dyn-item">
+              <a
+                rel="noopener"
+                href="/work/nibelu-rebuild"
+                class="recent-work_image-wrapper hover-shadow w-inline-block"
+              >
+                <img
+                  src="https://assets-global.website-files.com/627c1c7c6d6ff4107f43eb68/62cf9eee2382a10703dd359f_nibelu-thumb_min.webp"
+                  loading="lazy"
+                  alt="Screenshot of the Nibelu website that was rebuilt using Webflow."
+                  sizes="100vw"
+                  srcset="
+                    https://assets-global.website-files.com/627c1c7c6d6ff4107f43eb68/62cf9eee2382a10703dd359f_nibelu-thumb_min-p-500.webp   500w,
+                    https://assets-global.website-files.com/627c1c7c6d6ff4107f43eb68/62cf9eee2382a10703dd359f_nibelu-thumb_min-p-800.webp   800w,
+                    https://assets-global.website-files.com/627c1c7c6d6ff4107f43eb68/62cf9eee2382a10703dd359f_nibelu-thumb_min-p-1080.webp 1080w,
+                    https://assets-global.website-files.com/627c1c7c6d6ff4107f43eb68/62cf9eee2382a10703dd359f_nibelu-thumb_min.webp        1100w
+                  "
+                  class="recent-work_image"
+                />
+                <div
+                  fs-sliderdots-element="content"
+                  class="recent-work-name_wrapper"
+                >
+                  <div class="text-size-small">Nibelu Rebuild</div>
+                </div>
+              </a>
+            </div>
+            <div role="listitem" class="w-dyn-item">
+              <a
+                rel="noopener"
+                href="/work/the-tipsy-willow"
+                class="recent-work_image-wrapper hover-shadow w-inline-block"
+              >
+                <img
+                  src="https://assets-global.website-files.com/627c1c7c6d6ff4107f43eb68/62cf9ee6ff50c64443613173_tipsywillow-thumb_min.webp"
+                  loading="lazy"
+                  alt="Several screenshots of the The Tipsy Willow&#x27;s website that was built using Webflow."
+                  sizes="100vw"
+                  srcset="
+                    https://assets-global.website-files.com/627c1c7c6d6ff4107f43eb68/62cf9ee6ff50c64443613173_tipsywillow-thumb_min-p-500.webp   500w,
+                    https://assets-global.website-files.com/627c1c7c6d6ff4107f43eb68/62cf9ee6ff50c64443613173_tipsywillow-thumb_min-p-800.webp   800w,
+                    https://assets-global.website-files.com/627c1c7c6d6ff4107f43eb68/62cf9ee6ff50c64443613173_tipsywillow-thumb_min-p-1080.webp 1080w,
+                    https://assets-global.website-files.com/627c1c7c6d6ff4107f43eb68/62cf9ee6ff50c64443613173_tipsywillow-thumb_min-p-1600.webp 1600w,
+                    https://assets-global.website-files.com/627c1c7c6d6ff4107f43eb68/62cf9ee6ff50c64443613173_tipsywillow-thumb_min-p-2000.webp 2000w,
+                    https://assets-global.website-files.com/627c1c7c6d6ff4107f43eb68/62cf9ee6ff50c64443613173_tipsywillow-thumb_min.webp        2200w
+                  "
+                  class="recent-work_image"
+                />
+                <div
+                  fs-sliderdots-element="content"
+                  class="recent-work-name_wrapper"
+                >
+                  <div class="text-size-small">The Tipsy Willow</div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer-standard">
+        <div class="background-color-black">
+          <div class="page-padding">
+            <div class="container-large">
+              <div class="padding-vertical padding-xxlarge">
+                <div class="footer_component">
+                  <div class="w-layout-grid footer_top-wrapper">
+                    <div class="footer_left-wrapper">
+                      <div class="margin-bottom margin-medium">
+                        <a href="/" class="footy_logo-link w-inline-block">
+                          <div class="footer_logo-image_embed w-embed">
+                            <?xml
+                                                        version="1.0" encoding="UTF-8" standalone="no"?>
+                            <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                            <svg
+                              width="42px"
+                              height="15px"
+                              viewBox="0 0 614 226"
+                              version="1.1"
+                              xmlns="http://www.w3.org/2000/svg"
+                              xmlns:xlink="http://www.w3.org/1999/xlink"
+                              xml:space="preserve"
+                              xmlns:serif="http://www.serif.com/"
+                              style="
+                                fill-rule: evenodd;
+                                clip-rule: evenodd;
+                                stroke-linejoin: round;
+                                stroke-miterlimit: 2;
+                              "
+                            >
+                              <g>
+                                <path
+                                  d="M541.161,225.08c-20.191,0 -37.262,-6.929 -51.213,-20.788c-13.95,-13.858 -20.926,-31.342 -20.926,-52.451c-0.367,-19.641 6.471,-36.804 20.513,-51.489c14.042,-14.684 31.251,-21.935 51.626,-21.751c20.191,-0 37.262,6.929 51.213,20.788c13.95,13.858 20.925,31.342 20.925,52.452c0.368,19.64 -6.47,36.803 -20.512,51.488c-14.042,14.684 -31.251,21.935 -51.626,21.751Zm-138.77,-0.826c-22.394,0 -40.475,-6.424 -54.242,-19.273c-13.767,-12.849 -20.65,-30.287 -20.65,-52.314c-0,-21.293 6.837,-38.823 20.513,-52.59c13.675,-13.767 31.709,-20.65 54.103,-20.65c15.052,-0 28.635,3.396 40.75,10.187l-3.304,20.1c-12.115,-6.241 -24.597,-9.362 -37.446,-9.362c-15.235,0 -27.488,4.635 -36.757,13.905c-9.27,9.27 -13.905,21.706 -13.905,37.308c0,16.153 4.635,28.819 13.905,37.997c9.269,9.178 22.073,13.767 38.409,13.767c12.115,-0 25.148,-3.029 39.098,-9.086l2.754,19.549c-12.482,6.975 -26.892,10.462 -43.228,10.462Zm-104.904,-6.883c-3.304,3.304 -7.526,4.956 -12.666,4.956c-5.139,-0 -9.407,-1.698 -12.803,-5.094c-3.396,-3.396 -5.093,-7.663 -5.093,-12.803c-0,-5.14 1.697,-9.407 5.093,-12.803c3.396,-3.396 7.664,-5.094 12.803,-5.094c5.14,0 9.408,1.698 12.804,5.094c3.396,3.396 5.093,7.663 5.093,12.803c0,5.14 -1.743,9.453 -5.231,12.941Zm-287.548,3.987l-9.939,0l-0,-221.358l99.54,0l-89.601,221.358Zm91.21,0l-57.906,0l89.599,-221.358l57.907,0l-89.6,221.358Zm131.6,0l-98.299,0l89.6,-221.358l8.699,0l0,221.358Zm273.719,-31.796c9.178,9.728 20.742,14.593 34.693,14.593c13.95,-0 25.515,-4.865 34.693,-14.593c8.994,-9.545 13.491,-22.119 13.491,-37.721c0,-15.603 -4.497,-28.177 -13.491,-37.722c-9.178,-9.728 -20.743,-14.593 -34.693,-14.593c-13.951,0 -25.515,4.865 -34.693,14.593c-8.994,9.545 -13.491,22.119 -13.491,37.722c-0,15.602 4.497,28.176 13.491,37.721Z"
+                                  style="fill: currentColor; fill-rule: nonzero"
+                                />
+                              </g>
+                            </svg>
+                          </div>
+                          <div class="visually-hidden">Flow Maestro</div>
+                        </a>
+                      </div>
+                      <div
+                        class="margin-bottom margin-medium hide-mobile-landscape"
+                      >
+                        <div class="footer_details-wrapper">
+                          <div class="text-size-small">
+                            Flow Maestro is a Webflow exclusive development
+                            service that delivers expertly crafted,
+                            full-function, near-pixel-perfect Webflow websites.
+                            🤙<br />
+                            <br />
+                            Located on the beautiful Oregon Coast &amp;<a
+                              href="https://twitter.com/tonyseets"
+                              rel="noopener"
+                              title="Tony Seets&#x27;s Twitter"
+                              target="_blank"
+                              class="link-body-color"
+                              >Twitter</a
+                            >
+                            too.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="w-layout-grid footer_menu-wrapper">
+                      <ul
+                        id="w-node-_2a8a7550-8039-b0b4-ac61-0054c65ede93-eeda8c53"
+                        role="list"
+                        class="footer_link-list w-list-unstyled"
+                      >
+                        <li class="footer_list-item">
+                          <a href="/#recent" class="footer_link link-body-color"
+                            >Recent work</a
+                          >
+                        </li>
+                        <li class="footer_list-item">
+                          <a
+                            href="/#services"
+                            class="footer_link link-body-color"
+                            >Scope of work</a
+                          >
+                        </li>
+                        <li class="footer_list-item">
+                          <a
+                            href="/#capabilities"
+                            class="footer_link link-body-color"
+                            >All services</a
+                          >
+                        </li>
+                      </ul>
+                      <ul
+                        id="w-node-_3983ab9d-d8e8-afe3-c3a8-f0e9c50fc0ed-eeda8c53"
+                        role="list"
+                        class="footer_link-list w-list-unstyled"
+                      >
+                        <li class="footer_list-item">
+                          <a href="#" class="footer_link launch-hide"
+                            >Client login</a
+                          >
+                        </li>
+                        <li class="footer_list-item">
+                          <a
+                            href="#"
+                            id="fathom-footer-cta"
+                            fs-mirrorclick-element="trigger"
+                            role="button"
+                            class="footer_link link-body-color"
+                            >Get an estimate</a
+                          >
+                        </li>
+                        <li class="footer_list-item">
+                          <div class="w-dyn-list">
+                            <div class="collection-empty w-dyn-empty"></div>
+                          </div>
+                        </li>
+                        <li class="footer_list-item">
+                          <a
+                            href="mailto:hey@tonyseets.com?subject=Flow%20Maestro.co%20Inquiry"
+                            class="footer_link link-body-color"
+                            >Contact</a
+                          >
+                        </li>
+                        <li class="footer_list-item">
+                          <a href="/#faq" class="footer_link link-body-color"
+                            >FAQs</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                    <ul
+                      id="w-node-_4a5ee5e2-4bc7-4c07-bd10-fe513e21dfa1-eeda8c53"
+                      role="list"
+                      class="footer_social-list w-list-unstyled"
+                    >
+                      <li class="footer_list-item">
+                        <a
+                          title="Tony Seets Twitter"
+                          href="https://twitter.com/tonyseets"
+                          target="_blank"
+                          class="footer_social-link w-inline-block"
+                        >
+                          <div class="visually-hidden">
+                            Tony Seets Twitter Profile
+                          </div>
+                          <div class="social-icon w-embed">
+                            <svg
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M20.9728 6.7174C20.5084 7.33692 19.947 7.87733 19.3103 8.31776C19.3103 8.47959 19.3103 8.64142 19.3103 8.81225C19.3154 11.7511 18.1415 14.5691 16.0518 16.6345C13.962 18.6999 11.1312 19.8399 8.19405 19.7989C6.49599 19.8046 4.81967 19.4169 3.29642 18.6661C3.21428 18.6302 3.16131 18.549 3.16162 18.4593V18.3604C3.16162 18.2313 3.26623 18.1267 3.39527 18.1267C5.06442 18.0716 6.67402 17.4929 7.99634 16.4724C6.48553 16.4419 5.12619 15.5469 4.5006 14.1707C4.46901 14.0956 4.47884 14.0093 4.52657 13.9432C4.57429 13.8771 4.653 13.8407 4.73425 13.8471C5.19342 13.8932 5.65718 13.8505 6.1002 13.7212C4.43239 13.375 3.17921 11.9904 2.99986 10.2957C2.99349 10.2144 3.02992 10.1357 3.096 10.0879C3.16207 10.0402 3.24824 10.0303 3.32338 10.062C3.77094 10.2595 4.25409 10.3635 4.74324 10.3676C3.28184 9.40846 2.65061 7.58405 3.20655 5.92622C3.26394 5.76513 3.40181 5.64612 3.5695 5.61294C3.73718 5.57975 3.90996 5.63728 4.02432 5.76439C5.99639 7.86325 8.70604 9.11396 11.5819 9.25279C11.5083 8.95885 11.4721 8.65676 11.4741 8.35372C11.501 6.76472 12.4842 5.34921 13.9634 4.76987C15.4425 4.19054 17.1249 4.56203 18.223 5.71044C18.9714 5.56785 19.695 5.31645 20.3707 4.96421C20.4202 4.93331 20.483 4.93331 20.5325 4.96421C20.5634 5.01373 20.5634 5.07652 20.5325 5.12604C20.2052 5.87552 19.6523 6.50412 18.9509 6.92419C19.5651 6.85296 20.1685 6.70807 20.7482 6.49264C20.797 6.45942 20.8611 6.45942 20.9099 6.49264C20.9508 6.51134 20.9814 6.54711 20.9935 6.59042C21.0056 6.63373 20.998 6.68018 20.9728 6.7174Z"
+                                fill="CurrentColor"
+                              />
+                            </svg>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="footer_list-item">
+                        <a
+                          title="Tony Seets LinkedIn"
+                          href="https://www.linkedin.com/in/tonyseets/"
+                          target="_blank"
+                          class="footer_social-link w-inline-block"
+                        >
+                          <div class="visually-hidden">
+                            Tony Seets LinkedIn Profile
+                          </div>
+                          <div class="social-icon w-embed">
+                            <svg
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M5 3H19C20.1046 3 21 3.89543 21 5V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3ZM8 18C8.27614 18 8.5 17.7761 8.5 17.5V10.5C8.5 10.2239 8.27614 10 8 10H6.5C6.22386 10 6 10.2239 6 10.5V17.5C6 17.7761 6.22386 18 6.5 18H8ZM7.25 9C6.42157 9 5.75 8.32843 5.75 7.5C5.75 6.67157 6.42157 6 7.25 6C8.07843 6 8.75 6.67157 8.75 7.5C8.75 8.32843 8.07843 9 7.25 9ZM17.5 18C17.7761 18 18 17.7761 18 17.5V12.9C18.0325 11.3108 16.8576 9.95452 15.28 9.76C14.177 9.65925 13.1083 10.1744 12.5 11.1V10.5C12.5 10.2239 12.2761 10 12 10H10.5C10.2239 10 10 10.2239 10 10.5V17.5C10 17.7761 10.2239 18 10.5 18H12C12.2761 18 12.5 17.7761 12.5 17.5V13.75C12.5 12.9216 13.1716 12.25 14 12.25C14.8284 12.25 15.5 12.9216 15.5 13.75V17.5C15.5 17.7761 15.7239 18 16 18H17.5Z"
+                                fill="CurrentColor"
+                              />
+                            </svg>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="padding-top padding-medium">
+                    <div class="footer_bottom-wrapper text-size-small">
+                      <ul
+                        role="list"
+                        class="footer_bottom-list w-list-unstyled"
+                      >
+                        <li class="footer_list-item">
+                          <div class="footer_credit-text">
+                            <span class="footer_copyright-symbol">© </span>
+                            <span class="hide-mobile-portrait">Copyright </span>
+                            <span class="dynamic-copyright">2021</span>
+                            Flow Maestro
+                          </div>
+                        </li>
+                        <li class="footer_list-item">
+                          <div class="footer_credit-text">
+                            Proud
+                            <a
+                              href="https://webflow.grsm.io/flowmaestro"
+                              id="fathom-affiliate-cta"
+                              rel="noopener"
+                              target="_blank"
+                              class="link-body-color"
+                              >Webflow</a
+                            >
+                            and
+                            <a
+                              href="https://usefathom.com/ref/FCZXWO"
+                              target="_blank"
+                              class="link-body-color"
+                              >Fathom/</a
+                            >
+                            affiliate.
+                          </div>
+                        </li>
+                        <li
+                          id="w-node-_517aa0ef-ee43-170a-4d02-69ca2832b830-eeda8c53"
+                          class="footer_list-item"
+                        >
+                          <a
+                            id="fathom-payment-cta"
+                            href="https://buy.stripe.com/9AQeYKaKwgJy5fqcMN"
+                            target="_blank"
+                            class="button-tertiary is-payments link-body-color w-inline-block"
+                          >
+                            <div class="icon-embed-xsmall is-apple"></div>
+                            <div class="icon-embed-xsmall is-stripe w-embed">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                version="1.1"
+                                id="Layer_1"
+                                x="0px"
+                                y="0px"
+                                viewBox="0 0 468 222.5"
+                                style="enable-background: new 0 0 468 222.5"
+                                xml:space="preserve"
+                              >
+                                <style type="text/css">
+                                  .st0 {
+                                    fill-rule: evenodd;
+                                    clip-rule: evenodd;
+                                    fill: currentColor;
+                                  }
+                                </style>
+                                <g>
+                                  <path
+                                    class="st0"
+                                    d="M414,113.4c0-25.6-12.4-45.8-36.1-45.8c-23.8,0-38.2,20.2-38.2,45.6c0,30.1,17,45.3,41.4,45.3   c11.9,0,20.9-2.7,27.7-6.5v-20c-6.8,3.4-14.6,5.5-24.5,5.5c-9.7,0-18.3-3.4-19.4-15.2h48.9C413.8,121,414,115.8,414,113.4z    M364.6,103.9c0-11.3,6.9-16,13.2-16c6.1,0,12.6,4.7,12.6,16H364.6z"
+                                  />
+                                  <path
+                                    class="st0"
+                                    d="M301.1,67.6c-9.8,0-16.1,4.6-19.6,7.8l-1.3-6.2h-22v116.6l25-5.3l0.1-28.3c3.6,2.6,8.9,6.3,17.7,6.3   c17.9,0,34.2-14.4,34.2-46.1C335.1,83.4,318.6,67.6,301.1,67.6z M295.1,136.5c-5.9,0-9.4-2.1-11.8-4.7l-0.1-37.1   c2.6-2.9,6.2-4.9,11.9-4.9c9.1,0,15.4,10.2,15.4,23.3C310.5,126.5,304.3,136.5,295.1,136.5z"
+                                  />
+                                  <polygon
+                                    class="st0"
+                                    points="223.8,61.7 248.9,56.3 248.9,36 223.8,41.3  "
+                                  />
+                                  <rect
+                                    x="223.8"
+                                    y="69.3"
+                                    class="st0"
+                                    width="25.1"
+                                    height="87.5"
+                                  />
+                                  <path
+                                    class="st0"
+                                    d="M196.9,76.7l-1.6-7.4h-21.6v87.5h25V97.5c5.9-7.7,15.9-6.3,19-5.2v-23C214.5,68.1,202.8,65.9,196.9,76.7z"
+                                  />
+                                  <path
+                                    class="st0"
+                                    d="M146.9,47.6l-24.4,5.2l-0.1,80.1c0,14.8,11.1,25.7,25.9,25.7c8.2,0,14.2-1.5,17.5-3.3V135   c-3.2,1.3-19,5.9-19-8.9V90.6h19V69.3h-19L146.9,47.6z"
+                                  />
+                                  <path
+                                    class="st0"
+                                    d="M79.3,94.7c0-3.9,3.2-5.4,8.5-5.4c7.6,0,17.2,2.3,24.8,6.4V72.2c-8.3-3.3-16.5-4.6-24.8-4.6   C67.5,67.6,54,78.2,54,95.9c0,27.6,38,23.2,38,35.1c0,4.6-4,6.1-9.6,6.1c-8.3,0-18.9-3.4-27.3-8v23.8c9.3,4,18.7,5.7,27.3,5.7   c20.8,0,35.1-10.3,35.1-28.2C117.4,100.6,79.3,105.9,79.3,94.7z"
+                                  />
+                                </g>
+                              </svg>
+                            </div>
+                            <div>Pay</div>
+                          </a>
+                        </li>
+                        <li
+                          id="w-node-f4573c07-e94a-74a8-408b-1c7889ea2db1-eeda8c53"
+                          class="footer_list-item"
+                        >
+                          <ul role="list" class="footer_legal-links">
+                            <li class="footer_list-item hidden">
+                              <a href="#" class="footer_legal-link">Terms</a>
+                            </li>
+                            <li class="footer_list-item">
+                              <a
+                                href="/privacy"
+                                class="footer_legal-link link-body-color"
+                                >Privacy and Terms</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="footer_disclaimer">
+                    <div class="tooltip_wrapper is-footer-disclaimer">
+                      <div class="tooltip-icon w-embed">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          height="16px"
+                          viewBox="0 0 24 24"
+                          width="16px"
+                          fill="currentColor"
+                        >
+                          <path d="M0 0h24v24H0V0z" fill="none" />
+                          <path
+                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
+                          />
+                        </svg>
+                      </div>
+                      <div class="tooltip-text_wrapper is-footer-disclaimer">
+                        <div class="tooltip-text is-disclaimer-text">
+                          *All Webflow Designer look-alike assets are presented
+                          solely for demonstration, and are not an accurate
+                          representation of actual Webflow Designer
+                          functionality. Flow Maestro, does not represent, and
+                          is not affiliated with Webflow in any contractual way
+                          aside from the Webflow Partnership Program.
+                        </div>
+                        <div class="tooltip_text-fade"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section-gradient-fade_ix is-percent"></div>
+        </div>
+      </footer>
+    </div>
+    <script
+      src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=624dfe00e5b7becffc839f8e"
+      type="text/javascript"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://assets-global.website-files.com/624dfe00e5b7becffc839f8e/js/flow-maestro.48bbdffbd.js"
+      type="text/javascript"
+    ></script>
+    <!--GLOBAL BODY-->
+    <script>
+      // GLOBAL FUNCTIONALITY
+      //Automatic Copyright Year
+      // when the DOM is ready
+      document.addEventListener("DOMContentLoaded", function () {
+        // get the the span element
+        const yrSpan = document.querySelector(".dynamic-copyright");
+        // get the current year
+        const currentYr = new Date().getFullYear();
+        // set the year span element's text to the current year
+        yrSpan.textContent = currentYr;
+      });
+
+      // Disable form Panel form submit if honeypot true
+      const submit = document.querySelector("#cta-submit");
+      const honeypot = document.querySelector("#work-email");
+
+      honeypot.oninput = function () {
+        if (honeypot.value.length > 0) {
+          submit.disabled = true;
+        }
+      };
+
+      // GLOBAL ACCESSIBILITY
+      // Makes Panels 1/2 accessible
+      // keeps focus on panel elements
+      $(".is-page-info-open").on("click", function () {
+        $(".main-wrapper, .navbar_component, .is-request-panel").css(
+          "visibility",
+          "hidden"
+        );
+      });
+      $(".is-request-form-open").on("click", function () {
+        $(".main-wrapper, .navbar_component, .is-info-panel").css(
+          "visibility",
+          "hidden"
+        );
+      });
+      // allows focus on non-panel elements
+      $(".panel_close-button").on("click", function () {
+        $(
+          ".main-wrapper, .navbar_component, .is-info-panel, .is-request-panel "
+        ).css("visibility", "visible");
+      });
+
+      // GLOBAL FATHOM
+      window.addEventListener("load", (event) => {
+        // Navigation and Footer Events
+        document
+          .getElementById("fathom-nav-cta")
+          .addEventListener("click", () => {
+            fathom.trackGoal("HEZI7S4N", 0);
+          });
+        document
+          .getElementById("fathom-mobile-nav-cta")
+          .addEventListener("click", () => {
+            fathom.trackGoal("QATNU9P2", 0);
+          });
+        document
+          .getElementById("fathom-footer-cta")
+          .addEventListener("click", () => {
+            fathom.trackGoal("JZ24FRPP", 0);
+          });
+        document
+          .getElementById("fathom-payment-cta")
+          .addEventListener("click", () => {
+            fathom.trackGoal("IIPQV65U", 0);
+          });
+        document
+          .getElementById("fathom-affiliate-cta")
+          .addEventListener("click", () => {
+            fathom.trackGoal("BA42KWXY", 0);
+          });
+        // CTA Panel Form Submit Event
+        document
+          .getElementById("wf-form-Panel-CTA")
+          .addEventListener("submit", () => {
+            fathom.trackGoal("SWDMZQWC", 0);
+          });
+      });
+    </script>
+    <!-- FATHOM GLOBAL FOOTER CTA -->
+    <!-- Used on any page with Global Footer CTA Symbol  -->
+    <script>
+      window.addEventListener("load", (event) => {
+        // Navigation and Footer Events
+        document
+          .getElementById("fathom-global-footer-cta")
+          .addEventListener("click", () => {
+            fathom.trackGoal("JZ24FRPP", 0);
+          });
+      });
+    </script>
+  </body>
+</html>
