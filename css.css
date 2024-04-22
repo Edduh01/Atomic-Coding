@@ -3928,7 +3928,7 @@ figcaption {
   min-height: 3.5rem
 }
 
-.testimonial_client-image.is-edduh-profile {
+.testimonial_client-image.is-tony-profile {
   z-index: -1;
   width: 96%;
   min-width: auto;
@@ -4401,6 +4401,7 @@ figcaption {
   display: inline-block;
   position: relative
 }
+
 .process_step-circle {
   z-index: 1;
   border: .5px solid var(--brand-primary-green);
@@ -5319,7 +5320,7 @@ figcaption {
 .cal-center {
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100dvh;
   display: flex
 }
 
