@@ -4393,7 +4393,7 @@ figcaption {
 
 .webflow-heading {
   cursor: text;
-  background-image: url(/assets/imgs/website.svg);
+  background-image: url(/assets/imgs/website.svg) !important;
   background-position: 50% 77%;
   background-repeat: no-repeat;
   background-size: contain;
