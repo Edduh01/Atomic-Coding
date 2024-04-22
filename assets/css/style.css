@@ -4393,7 +4393,7 @@ figcaption {
 
 .webflow-heading {
   cursor: text;
-  background-image: url(https://assets-global.website-files.com/624dfe00e5b7becffc839f8e/625791bd4e9d3c94553f107f_webflow_logo_min.svg);
+  background-image: url(/assets/imgs/website.svg);
   background-position: 50% 77%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -4401,6 +4401,7 @@ figcaption {
   display: inline-block;
   position: relative
 }
+
 .process_step-circle {
   z-index: 1;
   border: .5px solid var(--brand-primary-green);
